@@ -1,0 +1,59 @@
+{
+  "model": "nano-banana",
+  "purpose": "character / product / lifestyle / style_frame / moodboard / video_handoff_frame",
+  "aspect_ratio": "9:16",
+  "style": "photorealistic editorial / cinematic commercial / fashion campaign / lifestyle natural",
+  "subject": {
+    "type": "person / product / scene",
+    "description": "Подробное описание: возраст, типаж, поза, одежда, выражение",
+    "key_features": ["черта 1", "черта 2", "черта 3"],
+    "pose": "Конкретная поза и угол"
+  },
+  "product": {
+    "name": "Если в кадре продукт",
+    "material": "стекло / металл / ткань / керамика",
+    "color": "#HEX или название",
+    "position": "в руках / на столе / на фоне",
+    "lighting_on_product": "блик слева / matt-finish / контровой свет"
+  },
+  "composition": {
+    "framing": "rule of thirds / centered / golden ratio",
+    "subject_position": "left third / center / right third",
+    "negative_space": "above / below / sides",
+    "depth": "foreground + subject + background"
+  },
+  "lighting": {
+    "type": "natural window / studio softbox / dramatic side / golden hour",
+    "direction": "front-left 45° / backlight / top",
+    "intensity": "soft / hard / contrasty",
+    "shadows": "soft falloff / sharp / minimal"
+  },
+  "color_palette": {
+    "dominant": "#HEX",
+    "accent": "#HEX",
+    "background": "#HEX",
+    "mood": "warm / cool / monochrome / muted"
+  },
+  "background": {
+    "description": "Что за персонажем/продуктом",
+    "blur": "f/1.8 strong / f/4 medium / sharp",
+    "elements": "что присутствует, чего быть не должно"
+  },
+  "camera": {
+    "lens_mm": 85,
+    "angle": "eye-level / low angle / high angle",
+    "distance": "close-up / medium / full body",
+    "depth_of_field": "f/2.0 shallow"
+  },
+  "post_processing": {
+    "grain": "subtle film grain / clean digital",
+    "color_grading": "Kodak Portra warmth / cinematic teal-orange / desaturated",
+    "contrast": "medium / high"
+  },
+  "consistency_for_video_handoff": {
+    "character_seed": "если для последующего video — описать константу персонажа",
+    "product_seed": "цвет, форма, материал — для consistency в Seedance/Veo",
+    "lighting_seed": "что нельзя менять при переходе в video"
+  },
+  "negative_prompt": "distorted face, extra limbs, blurry, low quality, watermark, text artifacts, plastic skin, deformed product, oversaturated, cartoon, illustration, 3D render artifacts, ai-look"
+}

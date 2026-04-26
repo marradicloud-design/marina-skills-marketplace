@@ -1,0 +1,57 @@
+{
+  "model": "kling",
+  "version": "kling-2 / kling-1.6 / kling-1.0",
+  "mode": "image-to-video / text-to-video",
+  "duration_sec": 5,
+  "aspect_ratio": "9:16",
+  "style": "cinematic commercial / lifestyle natural / fashion editorial / beauty premium",
+  "concept": "Один смысловой посыл сцены за 5–10 секунд",
+  "input_image": "ссылка на стартовый кадр (Midjourney или Nano Banana). Пусто, если text-to-video",
+  "hook": {
+    "timing": "0-1s",
+    "description": "Что происходит в первую секунду для удержания внимания"
+  },
+  "subject": {
+    "type": "person / product / scene",
+    "description": "Подробное описание: возраст, типаж, поза, одежда, выражение, материал и геометрия продукта",
+    "consistency_notes": "Что должно остаться неизменным от стартового кадра до финального"
+  },
+  "shot_sequence": [
+    {
+      "time": "0-2s",
+      "description": "Подробное описание движения и кадра",
+      "camera_move": "slow zoom in / pan left / orbit / push / static",
+      "subject_motion": "что и как движется",
+      "atmosphere": "что чувствуется в кадре"
+    },
+    {
+      "time": "2-4s",
+      "description": "...",
+      "camera_move": "...",
+      "subject_motion": "..."
+    },
+    {
+      "time": "4-5s",
+      "description": "Финальный кадр / packshot / переход к продукту",
+      "camera_move": "...",
+      "subject_motion": "..."
+    }
+  ],
+  "camera": {
+    "lens": "35mm / 50mm / 85mm / wide",
+    "depth_of_field": "shallow / medium / deep",
+    "movement_speed": "slow / medium / fast",
+    "stabilization": "smooth / handheld / locked"
+  },
+  "lighting": {
+    "type": "soft daylight / golden hour / studio softbox / neon / dramatic side",
+    "direction": "front / side / backlit / top",
+    "mood": "warm / cool / moody / clean"
+  },
+  "color_palette": ["#HEX1", "#HEX2", "#HEX3"],
+  "audio_or_silence": "Kling в большинстве версий не генерирует синхронный звук. Указать silent или планировать саунд-дизайн отдельно",
+  "negative_prompt": "blurry, distorted faces, deformed hands, extra limbs, watermark, text artifacts, low quality, oversaturated, cartoon style",
+  "consistency_priority": "high — лицо персонажа и геометрия продукта не должны деформироваться от кадра к кадру",
+  "platform_target": "Reels / TikTok / Shorts / WB карточка / Instagram",
+  "commercial_goal": "Что зритель должен сделать после ролика — кликнуть / запомнить продукт / захотеть купить"
+}

@@ -1,0 +1,98 @@
+{
+  "model": "gpt-image-2",
+  "purpose": "ad_layout / packshot / key_visual_with_text / multi_reference_composition / poster / banner",
+  "aspect_ratio": "9:16",
+  "style": "premium commercial photography / editorial advertising / clean modern design / bold poster",
+  "concept": "Один смысловой посыл кадра — что зритель должен считать за 1 секунду",
+  "subject": {
+    "primary": "что главное в кадре (продукт / персонаж / композиция)",
+    "secondary": "что поддерживающее",
+    "description": "Подробно: материал, цвет, поза, состояние",
+    "position_in_frame": "left third / center / right third",
+    "size_in_frame": "dominant 60% / medium 40% / accent 20%"
+  },
+  "references": {
+    "use_multiple": true,
+    "list": [
+      {
+        "type": "product",
+        "image_ref": "ссылка/файл",
+        "instruction": "сохранить геометрию, цвет, материал точно"
+      },
+      {
+        "type": "character",
+        "image_ref": "ссылка/файл",
+        "instruction": "сохранить лицо, типаж, причёску"
+      },
+      {
+        "type": "logo",
+        "image_ref": "ссылка/файл",
+        "instruction": "вставить точно, не искажать пропорции"
+      }
+    ]
+  },
+  "text_in_image": {
+    "enabled": true,
+    "headline": {
+      "text": "Точный текст заголовка",
+      "language": "ru / en",
+      "position": "top center / middle / bottom",
+      "font_category": "sans-serif bold / serif elegant / display modern / handwritten",
+      "size_relative": "большой 12% высоты кадра / средний 8% / акцентный 5%",
+      "color": "#HEX",
+      "weight": "bold / regular / black",
+      "case": "UPPERCASE / Title Case / sentence case"
+    },
+    "subline": {
+      "text": "Поддерживающий текст",
+      "position": "под заголовком",
+      "size_relative": "5% высоты кадра",
+      "color": "#HEX"
+    },
+    "cta": {
+      "text": "Кнопка / призыв",
+      "position": "bottom center",
+      "style": "button / underline / arrow",
+      "color": "#HEX"
+    },
+    "price_or_offer": {
+      "text": "1 990₽ / -50% / NEW",
+      "position": "правый верхний угол",
+      "style": "badge / sticker / clean text"
+    },
+    "read_flow": "что читается первым → вторым → третьим"
+  },
+  "composition": {
+    "framing": "rule of thirds / centered / golden ratio / asymmetric",
+    "negative_space": "above / below / sides / minimal",
+    "layers": "foreground (subject) + midground (supporting) + background (clean)",
+    "balance": "symmetric / weighted left / weighted right"
+  },
+  "lighting": {
+    "type": "studio softbox / natural window / dramatic side / clean flat for product",
+    "direction": "front / 45° / backlight",
+    "mood": "premium clean / warm intimate / cool modern / bold contrasty",
+    "shadows": "soft / sharp / minimal"
+  },
+  "color_palette": {
+    "dominant": "#HEX",
+    "accent": "#HEX",
+    "background": "#HEX",
+    "text_color": "#HEX",
+    "mood": "warm / cool / monochrome / brand-led",
+    "brand_palette_lock": true
+  },
+  "background": {
+    "description": "Чистый студийный / lifestyle / абстрактный градиент / branded pattern",
+    "complexity": "minimal / medium / rich",
+    "must_not_compete_with_text": true
+  },
+  "instruction_priority": {
+    "1_must_preserve": "точность референсов продукта/персонажа/логотипа",
+    "2_must_preserve": "точность текста (без artifacts, без подмены букв)",
+    "3_must_preserve": "композицию и read flow",
+    "4_can_interpret": "освещение, фон, мелкие детали"
+  },
+  "platform_target": "WB-карточка / Reels-обложка / VK / сайт / печать",
+  "negative_prompt": "blurry text, distorted letters, gibberish text, misspelled words, deformed logo, artifact text, fake-looking ai render, plastic skin, distorted face, extra limbs, watermark, oversaturated, cluttered composition, text overlapping product"
+}

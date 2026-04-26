@@ -1,0 +1,51 @@
+{
+  "model": "seedance-2",
+  "duration_sec": 5,
+  "aspect_ratio": "9:16",
+  "style": "fashion editorial / product showcase / dynamic commercial",
+  "physics_focus": "high — точная физика ткани/жидкости/частиц",
+  "concept": "Ключевая идея сцены за 5 секунд",
+  "input_image": "ссылка на стартовый кадр (Nano Banana, GPT Image 2 или фото продукта)",
+  "shot_sequence": [
+    {
+      "time": "0-1s",
+      "description": "Подробное описание движения и кадра",
+      "camera_move": "slow zoom in / pan left / orbit / push",
+      "subject_motion": "что и как движется",
+      "physics": "ткань колышется / жидкость стекает / частицы летят"
+    },
+    {
+      "time": "1-3s",
+      "description": "...",
+      "camera_move": "...",
+      "subject_motion": "...",
+      "physics": "..."
+    },
+    {
+      "time": "3-5s",
+      "description": "Финальная позиция, продукт в фокусе",
+      "camera_move": "settle / tighten",
+      "subject_motion": "...",
+      "physics": "..."
+    }
+  ],
+  "cinematic_details": {
+    "lens": "85mm portrait / 35mm wide / macro",
+    "depth_of_field": "shallow / medium",
+    "lighting": "soft window / studio rim / dramatic side",
+    "color_grading": "warm / cool / desaturated / vibrant",
+    "film_emulation": "Kodak Portra / Fuji / clean digital"
+  },
+  "consistency_anchors": {
+    "character_features": "что должно остаться неизменным",
+    "product_appearance": "форма, цвет, материал — без искажений",
+    "lighting_continuity": "не менять ключ света между кадрами"
+  },
+  "motion_intensity": "subtle / medium / intense",
+  "constraints": {
+    "no_morphing": true,
+    "no_object_replacement": true,
+    "preserve_product_geometry": true
+  },
+  "negative_prompt": "morphing product, distorted hands, plastic skin, jitter, frame skipping, text artifacts, watermark, blurry, deformed, extra limbs, oversaturated"
+}

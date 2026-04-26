@@ -1,0 +1,80 @@
+{
+  "model": "veo-3",
+  "duration_sec": 8,
+  "aspect_ratio": "9:16",
+  "style": "cinematic commercial, realistic, premium",
+  "concept": "Один смысловой посыл ролика — что зритель должен понять",
+  "hook": {
+    "timing": "0-1.5s",
+    "description": "Что происходит в первые 1.5 секунды для удержания внимания"
+  },
+  "character_reference": {
+    "description": "Возраст, пол, типаж, одежда, причёска, особенность",
+    "image_ref": "ссылка/имя файла в Google Drive",
+    "consistency_notes": "Что должно остаться неизменным во всех кадрах"
+  },
+  "product_reference": {
+    "name": "Название продукта",
+    "description": "Материал, цвет, форма, размер, ключевая деталь",
+    "image_ref": "ссылка/имя файла",
+    "must_be_visible": true,
+    "screen_time_pct": 60
+  },
+  "location": {
+    "description": "Студия / интерьер / улица / абстракция",
+    "atmosphere": "Настроение пространства"
+  },
+  "lighting": {
+    "type": "soft daylight / dramatic side / natural window / studio softbox",
+    "direction": "front / 45° left / backlight rim",
+    "temperature_kelvin": 5600,
+    "key_to_fill_ratio": "3:1"
+  },
+  "color_palette": ["#1A1A1A", "#F5F0E8", "#8B0000"],
+  "camera": {
+    "lens_mm": 50,
+    "depth_of_field": "shallow, f/2.8",
+    "movement": "slow dolly in / handheld subtle / static / orbit",
+    "shot_types": ["medium close-up", "macro", "wide", "product shot"]
+  },
+  "shot_by_shot_timeline": [
+    {
+      "time": "0-2s",
+      "shot_type": "macro",
+      "action": "Что происходит в кадре",
+      "camera": "движение и план",
+      "emotion": "конкретная эмоция"
+    },
+    {
+      "time": "2-5s",
+      "shot_type": "medium",
+      "action": "...",
+      "camera": "...",
+      "emotion": "..."
+    },
+    {
+      "time": "5-8s",
+      "shot_type": "product shot + CTA",
+      "action": "Packshot с логотипом и оффером",
+      "camera": "static, центрированно",
+      "emotion": "уверенность"
+    }
+  ],
+  "sound": {
+    "music": "deep cinematic / minimal piano / ambient electronic",
+    "bpm": 90,
+    "sfx": ["whoosh на переходе 2s", "click продукта на 5s"],
+    "voice_over": "опционально, текст до 15 слов"
+  },
+  "text_overlay": {
+    "headline": "Текст оффера, до 6 слов",
+    "cta": "Купить / Узнать / Попробовать",
+    "font_style": "sans-serif bold",
+    "appearance": "5.5-8s в нижней трети"
+  },
+  "negative_prompt": "distorted faces, extra limbs, deformed product, blurry, low quality, watermark, text artifacts, jittery motion, oversaturated, cartoon, plastic look",
+  "final_packshot": {
+    "duration": "1.5s",
+    "elements": ["продукт центр", "логотип", "CTA текст", "цена опционально"]
+  }
+}

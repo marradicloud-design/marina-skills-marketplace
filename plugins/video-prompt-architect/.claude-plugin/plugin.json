@@ -1,0 +1,22 @@
+{
+  "name": "video-prompt-architect",
+  "version": "1.0.0",
+  "description": "Профессиональные промты для AI-видео (Seedance 2, Runway, Kling) и AI-image (Nano Banana, GPT Image 2, Midjourney). Мульти-аналитика и аудит через Claude, GPT, Gemini.",
+  "author": {
+    "name": "Marina Bezrukavnikova",
+    "url": "https://github.com/marradicloud-design"
+  },
+  "keywords": [
+    "ai-video",
+    "ai-image",
+    "prompts",
+    "wildberries",
+    "seedance",
+    "runway",
+    "kling",
+    "nano-banana",
+    "gpt-image",
+    "midjourney"
+  ],
+  "license": "MIT"
+}

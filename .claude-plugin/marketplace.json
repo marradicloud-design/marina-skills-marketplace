@@ -1,0 +1,20 @@
+{
+  "name": "marina-skills",
+  "owner": {
+    "name": "Marina Bezrukavnikova",
+    "url": "https://github.com/marradicloud-design"
+  },
+  "metadata": {
+    "description": "Personal Claude Code skills marketplace by Marina (WB seller + AI video producer).",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "video-prompt-architect",
+      "source": "./plugins/video-prompt-architect",
+      "description": "Профессиональные промты для AI-видео (Seedance 2, Runway, Kling) и AI-image (Nano Banana, GPT Image 2, Midjourney). Аудит и сборка через Claude/GPT/Gemini.",
+      "version": "1.0.0",
+      "category": "creative"
+    }
+  ]
+}
